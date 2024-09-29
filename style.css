@@ -1,0 +1,26 @@
+* {
+  margin: 1;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(103, 115, 116);
+  color: white;
+}
+
+.container-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+.container-menu a {
+  text-decoration: none;
+}
+
+img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;  
+}
+
+
